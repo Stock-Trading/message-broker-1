@@ -1,7 +1,7 @@
 version: "3"
 services:
   kafka:
-    image: 'bitnami/kafka:3.6.1'
+    image: 'ubuntu/kafka:3.9.1-22.04_edge'
     ports:
       - '9092:9092'
     environment:
